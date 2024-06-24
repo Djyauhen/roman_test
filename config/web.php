@@ -42,7 +42,7 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*'urlManager' => [
+        'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
@@ -50,9 +50,10 @@ $config = [
                 'about' => '/site/about',
                 'contact' => '/site/contact',
                 'users' => '/site/users',
-                'users/view/<id:d+>' => 'users/view',
+                'user' => '/site/view',
+                'create' => '/site/create',
             ],
-        ],*/
+        ],
     ],
     'params' => $params,
 ];
